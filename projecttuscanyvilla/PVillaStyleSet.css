@@ -1,0 +1,103 @@
+﻿body {
+    background-color:#C8CCC9;
+}
+.page-header {
+    background-color: #C8CCC9;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+    align-self: center;
+    padding-left: 345px;
+    padding-right: 345px;
+}
+ /*NAV BAR ELEMENTS AT THE OPPOSITE ENDS*/   
+
+.navbar-brand{ /*WINDOWS OF TUSCANY*/
+    background-color:#51AE9F;
+}
+.navbar-right{  /*PROPERTIES*/
+    background-color:#85BDD8;
+}
+
+/*TESTING HERE*/
+
+#myNavbar{
+    background-color:white;
+    text-align:center;
+    color:gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+/* THE TEXT PROPERTIES OF OPPOSITE ENDS */
+.green {
+            color: white; /*WINDOWS OF TUSCANY*/
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:medium;
+            padding:initial;
+        }
+.blue{
+    color:white; /*PROPERTIES*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+}
+
+.carousel-caption{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+
+}
+.sugar{
+    background-color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#51AE9F;
+    padding:90px;
+    text-align:center;
+
+}
+.sugar p{
+    font-size:small;
+    color:black;
+    text-align:center;
+}
+
+h4 span { 
+   color: white; 
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+h4{
+   position:absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+
+
+  /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color:#DDDDDD;
+      padding: 25px;
+    }
+
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+       
+    
